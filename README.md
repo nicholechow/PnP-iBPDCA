@@ -10,13 +10,19 @@
 ## Prerequisites:
 This code requires `torch>= 1.8.0` and `pytorch-lightning`. Please install dependencies by running the following command:
 ```
-pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 
 
 
-Rician Noise Removal 
+Rician Noise Removal (added parula colormap for better visualization)
 ----------
+### Testing
+```
+cd PnP_restoration
+python PnP_iBPDCA_denoise.py
+```
+
 [<img src="./raw/PDw.gif" width="300px"/>](https://imgsli.com/MjkyNzc1) 
 [<img src="./raw/T2w.gif" width="300px"/>](https://imgsli.com/MjkyNzcz) 
 
@@ -28,10 +34,20 @@ Rician Noise Removal
 
 Phase Retrieval
 ----------
+### Testing
+```
+cd PnP_restoration
+python PR_iBPDCA_gaussian.py # for Gaussian noise
+python PR_iBPDCA_poisson.py # for Poisson noise
+```
+- Phase retreival results with four coded diffraction patterns (the following is for visual demonstration purpose only! It is not possible to pack four observations in a RGB image!)
+
 [<img src="./raw/Pollen.gif" width="300px"/>](https://imgsli.com/MjkyNzc1) 
 [<img src="./raw/TadpoleGalaxy.gif" width="300px"/>](https://imgsli.com/MjkyNzcz) 
+
+- Denoising Results on prDeep12 dataset
+
 <img src="raw/pr_table.png" width="600px"/> 
-* for visual demonstration purpose only! 
 
 
 
