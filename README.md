@@ -1,5 +1,5 @@
 # Inertial Proximal Difference-of-Convex Algorithm with Convergent Bregman Plug-and-Play
-[**Tsz Ching Chow**](https://github.com/nicholechow), [**Chaoyan Huang**](https://scholar.google.com/citations?user=Sun7dRgAAAAJ&hl=en&oi=ao), Zhongming Wu, Tieyong Zeng, Angelica I. Aviles-Rivero
+[**Tsz Ching Chow**](https://github.com/nicholechow), [**Chaoyan Huang**](https://scholar.google.com/citations?user=Sun7dRgAAAAJ&hl=en&oi=ao), [**Zhongming Wu**](https://scholar.google.com/citations?user=-Ptg1-0AAAAJ&hl=en&oi=ao), [**Tieyong Zeng**](https://scholar.google.com/citations?user=2yyTgRwAAAAJ&hl=en&oi=ao), [**Angelica I. Aviles-Rivero**](https://scholar.google.com/citations?user=q5AA4lEAAAAJ&hl=en&oi=ao)
 
 [[paper arxiv](https://arxiv.org/pdf/2409.03262)]  
 
