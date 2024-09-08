@@ -4,7 +4,7 @@
 [[paper arxiv](https://arxiv.org/pdf/2409.03262)]  
 
 ## News
-- 2024.09.06 : Initial release of the codebase for the paper "Inertial Proximal Difference-of-Convex Algorithm with Convergent Bregman Plug-and-Play". Code will be released soon after the paper is accepted.
+- 2024.09.06 : Initial release of the codebase for the paper "Inertial Proximal Difference-of-Convex Algorithm with Convergent Bregman Plug-and-Play for Nonconvex Imaging". The code will be released soon after the paper is accepted.
 
 ## Prerequisites:
 This code requires `torch>= 1.8.0` and `pytorch-lightning`. Please install dependencies by running the following command:
@@ -39,7 +39,7 @@ cd PnP_restoration
 python PR_iBPDCA_gaussian.py # for Gaussian noise
 python PR_iBPDCA_poisson.py # for Poisson noise
 ```
-- Phase retreival results with four coded diffraction patterns (the following is for visual demonstration purpose only! It is not possible to pack four observations in a RGB image!)
+- Phase retreival results with four coded diffraction patterns (the following is for visual demonstration purposes only! It is not possible to pack four observations in a RGB image!)
 
 [<img src="./raw/Pollen.gif" width="300px"/>](https://imgsli.com/MjkyNzc1) 
 [<img src="./raw/TadpoleGalaxy.gif" width="300px"/>](https://imgsli.com/MjkyNzcz) 
@@ -55,7 +55,7 @@ Citation
 ----------
 ```
 @article{chow2024inertial,
-  title={Inertial Proximal Difference-of-Convex Algorithm with Convergent Bregman Plug-and-Play},
+  title={Inertial Proximal Difference-of-Convex Algorithm with Convergent Bregman Plug-and-Play for Nonconvex Imaging},
   author={Chow, Tsz Ching and Huang, Chaoyan and Wu, Zhongming and Zeng, Tieyong and Aviles-Rivero, Angelica I.},
   journal={arXiv preprint arXiv:2409.03262},
   year={2024}
